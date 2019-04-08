@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Advent+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Advent+Pro|Montserrat" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet"> 
+    
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    
+      <meta charset="UTF-8"> 
+    <title>Motive</title>
+    
+    </head>
+    
+    <link rel="stylesheet"  href="css/style.css">
+    <link rel="stylesheet"  href="css/menuPhone.css">
+    
+    <link rel="stylesheet"  href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <body>
+    <!-- NAVBAR -->
+    <div class="nav">
+        <a href="" class="logo">MOTIVE</a>
+        <div class="menu">  
+        
+            <div class="dropdown">
+    <div class="dropbtn"><a href="home.html" class="a-menu">HOME</a></div>
+    <div class="dropdown-content">
+      <a href="#">SLIDESHOW</a>
+      <a href="#">BANNER IMAGE</a>
+    </div>
+  </div>
+                <div class="dropdown">
+    <div class="dropbtn"><a href="#" class="a-menu">PAGES</a></div>
+    <div class="dropdown-content">
+      <a href="404page.html">404 PAGE</a>
+      <a href="standard-page.html">STANDART PAGE</a>
+    </div>
+  </div>
+            <a href="about.html" class="a-menu" >ABOUT</a>
+                     <div class="dropdown">
+    <div class="dropbtn"><a href="blog.html" class="a-menu">BLOG</a></div>
+    <div class="dropdown-content">
+      <a href="#">RIGHT SIDEBAR</a>
+      <a href="#">NO SIDEBAR</a>
+        <a href="#">GRID LAYOUT</a>
+        <a href="#">SINGLE BLOG</a>
+    </div>
+  </div>
+                       <div class="dropdown">
+    <div class="dropbtn"><a href="portfolio.html" class="a-menu">PORTFOLIO</a></div>
+    <div class="dropdown-content">
+      <a href="#">ORIGINAL</a>
+        <a href="#">WIDE LAYOUT</a>
+        <a href="#">SINGLE PORTFOLIO</a>
+    </div>
+  </div>
+            <a href="contact.html" class="a-menu" >CONTACT</a>
+        </div> 
+        <div class="phone-nav" onclick="openNav()">&#9776;</div> 
+        </div>
+        
+       <!-- .........PHONE MENU................. -->
+ <div class="side-bar" id="sideBar">
+        
+    <i class="far fa-times-circle close" onclick="closeNav()"></i>
+    
+        <div class="drop-down">
+        <div class="menu-item drop-btn" id="drop-btn">
+            <a href="home.html" >Home</a>
+            <i class="fas fa-angle-down" id="shigjeta"></i>
+            </div>
+            <div class="drop-menu"> 
+            <div class="drop-item"><a>Slideshow</a></div>
+                <div class="drop-item"><a>Banner Image</a></div>
+            
+            </div><!--dropdown menu end-->
+        </div><!--dropdown end-->
+        
+        
+        
+         <div class="drop-down">
+        <div class="menu-item drop-btn" id="drop-btn">
+            <a href="index.html">Pages</a>
+            <i class="fas fa-angle-down dropbtn"></i>
+             </div>
+            <div class="drop-menu"> 
+            <div class="drop-item"><a href="404page.html">404 Page</a></div>
+                <div class="drop-item"><a href="standard-page.html">Standart Page</a></div>
+            
+            </div><!--dropdown menu end-->
+        </div><!--dropdown end-->
+        
+         <div class="menu-item" ><a href="about.html">About</a></div>
+        
+        
+         <div class="drop-down">
+        <div class="menu-item drop-btn" id="drop-btn">
+            <a href="blog.html">Blog</a>
+             <i class="fas fa-angle-down dropbtn"></i>
+            </div>
+            <div class="drop-menu"> 
+            <div class="drop-item"><a>Right Sidebar</a></div>
+                <div class="drop-item"><a>No Sidebar</a></div>
+                <div class="drop-item"><a>Grid Layout</a></div>
+                    <div class="drop-item"><a>Single Blog</a></div>
+            
+            </div><!--dropdown menu end-->
+        </div><!--dropdown end-->
+        
+        
+          <div class="drop-down">
+        <div class="menu-item drop-btn" id="drop-btn">
+            <a href="portfolio.html">Portfolio</a>
+              <i class="fas fa-angle-down dropbtn"></i>
+              </div>
+            <div class="drop-menu"> 
+            <div class="drop-item"><a>Original</a></div>
+                <div class="drop-item"><a>Wide Layout</a></div>
+                <div class="drop-item"><a>Single Portfolio</a></div>
+                    
+            
+            </div><!--dropdown menu end-->
+        </div><!--dropdown end-->
+        
+        
+        <div class="menu-item" ><a a href="contact.html">Contact</a></div>
+       
+    
+    
+    </div>
+        <!-- END OF NAVBAR -->
+        
+        <!-- IMAGE -->
+       <div class="about-img blog-img">
+        <img src="img/about.jpg">
+        <div class ="about-text">
+           <span class="about-title page-not-found-title">PAGE NOT FOUND</span>
+            <span class="about-desc">404 page not found</span>
+           </div>
+        
+        </div>
+         <!-- END OF IMAGE -->
+        
+            <div class="page-404">
+            
+                <span>THIS PAGE CLOUD NOT BE FOUND</span>
+                <div class="line-404"></div>
+                <p>Nunc laoreet ac neque mattis efficitur. In eu lacus erat. Ut tincidunt luctus sapien, sed fermentum eros malesuada dignissim. Maecenas id ligula nisl. Curabitur a justo leo. 
+                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla lacus orci, luctus sit amet lacinia</p>
+        
+                
+        </div>
+               
+        
+        
+        <!-- ---------footer------------- -->
+        <div class = "top-btn" id ="topBtn" href="#" ><i class="fa fa-4x fa-angle-up"></i></div>
+        
+        <footer>
+        
+        <span>© 2016 Motive. Created by Lucid Themes.</span>
+        <div class = "social" > 
+            
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest"></i>
+            <i class="fab fa-dribbble"></i>
+            <i class="fab fa-behance"></i>
+            
+            </div>
+        </footer>
+                
+                
+        <script src="app.js"></script>
+        <script src="menu.js"></script>
+    
+    </body>
+        
+    
+</html>

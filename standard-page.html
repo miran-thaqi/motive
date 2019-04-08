@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Advent+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Advent+Pro|Montserrat" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet"> 
+    
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    
+      <meta charset="UTF-8"> 
+    <title>Motive</title>
+    
+    </head>
+    
+    <link rel="stylesheet"  href="css/style.css">
+    <link rel="stylesheet"  href="css/menuPhone.css">
+    
+    <link rel="stylesheet"  href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <body>
+    <!-- NAVBAR -->
+    <div class="nav">
+        <a href="" class="logo">MOTIVE</a>
+        <div class="menu">  
+        
+            <div class="dropdown">
+    <div class="dropbtn"><a href="home.html" class="a-menu">HOME</a></div>
+    <div class="dropdown-content">
+      <a href="#">SLIDESHOW</a>
+      <a href="#">BANNER IMAGE</a>
+    </div>
+  </div>
+                <div class="dropdown">
+    <div class="dropbtn"><a href="#" class="a-menu">PAGES</a></div>
+    <div class="dropdown-content">
+      <a href="404page.html">404 PAGE</a>
+      <a href="standard-page.html">STANDART PAGE</a>
+    </div>
+  </div>
+            <a href="about.html" class="a-menu" >ABOUT</a>
+                     <div class="dropdown">
+    <div class="dropbtn"><a href="blog.html" class="a-menu">BLOG</a></div>
+    <div class="dropdown-content">
+      <a href="#">RIGHT SIDEBAR</a>
+      <a href="#">NO SIDEBAR</a>
+        <a href="#">GRID LAYOUT</a>
+        <a href="#">SINGLE BLOG</a>
+    </div>
+  </div>
+                       <div class="dropdown">
+    <div class="dropbtn"><a href="portfolio.html" class="a-menu">PORTFOLIO</a></div>
+    <div class="dropdown-content">
+      <a href="#">ORIGINAL</a>
+        <a href="#">WIDE LAYOUT</a>
+        <a href="#">SINGLE PORTFOLIO</a>
+    </div>
+  </div>
+            <a href="contact.html" class="a-menu" >CONTACT</a>
+        </div> 
+        <div class="phone-nav" onclick="openNav()">&#9776;</div>
+        </div>
+        <!-- .........PHONE MENU................. -->
+    
+ <div class="side-bar" id="sideBar">
+        
+    <i class="far fa-times-circle close" onclick="closeNav()"></i>
+    
+        <div class="drop-down">
+        <div class="menu-item drop-btn" id="drop-btn">
+            <a href="home.html" >Home</a>
+            <i class="fas fa-angle-down" ></i>
+            </div>
+            <div class="drop-menu"> 
+            <div class="drop-item"><a href="#">Slideshow</a></div>
+                <div class="drop-item"><a>Banner Image</a></div>
+            
+            </div><!--dropdown menu end-->
+        </div><!--dropdown end-->
+        
+        
+        
+         <div class="drop-down">
+        <div class="menu-item drop-btn" id="drop-btn">
+            <a>Pages</a>
+            <i class="fas fa-angle-down dropbtn"></i>
+             </div>
+            <div class="drop-menu"> 
+            <div class="drop-item"><a href="404page.html">404 Page</a></div>
+                <div class="drop-item"><a href="standard-page.html">Standart Page</a></div>
+            
+            </div><!--dropdown menu end-->
+        </div><!--dropdown end-->
+        
+         <div class="menu-item" ><a href="about.html">About</a></div>
+        
+        
+         <div class="drop-down">
+        <div class="menu-item drop-btn" id="drop-btn">
+            <a href="blog.html">Blog</a>
+             <i class="fas fa-angle-down dropbtn"></i>
+            </div>
+            <div class="drop-menu"> 
+            <div class="drop-item"><a>Right Sidebar</a></div>
+                <div class="drop-item"><a>No Sidebar</a></div>
+                <div class="drop-item"><a>Grid Layout</a></div>
+                    <div class="drop-item"><a>Single Blog</a></div>
+            
+            </div><!--dropdown menu end-->
+        </div><!--dropdown end-->
+        
+        
+          <div class="drop-down">
+        <div class="menu-item drop-btn" id="drop-btn">
+            <a href="portfolio.html">Portfolio</a>
+              <i class="fas fa-angle-down dropbtn"></i>
+              </div>
+            <div class="drop-menu"> 
+            <div class="drop-item"><a>Original</a></div>
+                <div class="drop-item"><a>Wide Layout</a></div>
+                <div class="drop-item"><a>Single Portfolio</a></div>
+                    
+            
+            </div><!--dropdown menu end-->
+        </div><!--dropdown end-->
+        
+        
+        <div class="menu-item" ><a a href="contact.html">Contact</a></div>
+       
+    
+    
+    </div>
+  
+        <!-- END OF NAVBAR -->
+        
+        <!-- IMAGE -->
+       <div class="about-img blog-img">
+        <img src="img/about.jpg">
+        <div class ="about-text">
+           <span class="about-title">STANDARD PAGE</span>
+            <span class="about-desc">Right Sidebar example</span>
+           </div>
+        
+        </div>
+         <!-- END OF IMAGE -->
+        
+         <!--BLOG PAGE -->
+        <div class="blog-page">
+        
+        <div class="blog-posts standard-txt">
+        
+        <p class="standard-post" >
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque nibh enim, quis euismod enim lacinia nec. Phasellus quam diam, semper in erat eu, efficitur molestie purus. Sed a elementum mi. Sed interdum mattis risus, sit amet eleifend ligula luctus ut. Sed ullamcorper lorem aliquam, tincidunt lorem et, ultrices est. Suspendisse eleifend dui odio, id volutpat quam iaculis eu. Nunc sit amet scelerisque mauris. Phasellus volutpat mauris ac sem tincidunt, in fringilla arcu ultrices. Phasellus scelerisque eros vel pulvinar gravida. Aenean suscipit felis orci, sed egestas libero dignissim at. Sed commodo malesuada ligula, nec vehicula risus fermentum sed.
+
+Integer pretium posuere est. Ut interdum mollis ipsum, ac vehicula nisl laoreet et. Curabitur ac ipsum aliquam, varius purus at, lobortis purus. Maecenas quis sem dapibus, volutpat odio non, mattis dui. Nam eget urna nec mi tempor mollis vel nec felis. Cras tellus est, malesuada at leo vitae, lacinia pellentesque eros. Donec accumsan tincidunt velit.
+
+</p>
+<p class="standard-title">Example subheading</p>
+            <p class="standard-post">Nullam lobortis faucibus cursus. Sed aliquam semper mi sit amet interdum. Aliquam felis quam, ultrices ut elementum a, porta vel ex. Pellentesque at tempus magna. Vestibulum viverra lectus quis laoreet ullamcorper. Nunc finibus orci in luctus hendrerit. Ut dui mi, lacinia hendrerit elit ut, malesuada luctus enim.
+
+Sed rhoncus, velit sit amet mollis cursus, velit urna congue orci, in dignissim elit magna eget ante. Mauris sem justo, volutpat in quam quis, vulputate luctus neque. Sed ultricies eget augue quis hendrerit. Nullam quis nisi sit amet velit pharetra lobortis ac eget magna. Phasellus varius turpis quis quam vulputate, sed ultricies ex gravida. Suspendisse leo ipsum, porttitor sed ullamcorper id, pretium vel urna. Donec sit amet mauris leo. Sed nibh odio, lacinia eu condimentum eu, accumsan id elit. Sed porttitor pretium ipsum, et lacinia quam faucibus fringilla. Vivamus a augue maximus, gravida ante eget, pulvinar est. Nulla laoreet feugiat elit, eu euismod mauris volutpat ut.</p>
+            <p class="standard-title">Example subheading</p>
+            <p class="standard-post">Sed congue leo purus. Nunc congue, sapien ac efficitur mollis, lorem dui vehicula sem, a aliquet ex augue ut urna. Duis scelerisque, sapien scelerisque vulputate convallis, lorem magna convallis velit, non venenatis elit ante nec leo. Duis quis lobortis erat. Quisque aliquam posuere vestibulum. Cras lorem nisi, iaculis sed ex sed, tempor venenatis nisi. Donec et bibendum lacus. Quisque non faucibus neque. Proin cursus nulla elit, quis interdum urna sollicitudin id. Maecenas vel lectus at mauris scelerisque suscipit.</p>
+            
+            <ul>
+            <li>Suspendisse mattis molestie urna, quis iaculis sapien vehicula id.</li>
+             <li>Suspendisse mattis molestie urna, quis iaculis sapien vehicula id. Sed egestas eros in iaculis interdum.</li>
+             <li>Suspendisse mattis molestie urna</li>
+            </ul>
+       
+        
+        </div>
+            <!-- SIDEBAR -->
+            
+            <div class="sidebar standart-sidebar">
+                
+            <div class = "lastest-posts ">
+                
+                <span class="lastest-title">LASTEST POSTS</span>
+                
+                <div class ="sidebar-post">
+                    
+                    <img src="img/1.jpg">
+                    
+                    <div class="sidebar-post-info">
+                    <p class="sidebar-post-title">POST TITLE</p>
+                    <span>24 September 2015</span>
+                    </div>
+                    
+                </div>
+                
+                 
+                <div class ="sidebar-post">
+                    
+                    <img src="img/9.jpg">
+                    
+                    <div class="sidebar-post-info">
+                    <p class="sidebar-post-title">POST TITLE</p>
+                    <span>24 September 2015</span>
+                    </div>
+                    
+                </div>
+                
+                
+                 
+                <div class ="sidebar-post">
+                    
+                    <img src="img/2.jpg">
+                    
+                    <div class="sidebar-post-info">
+                    <p class="sidebar-post-title">POST TITLE</p>
+                    <span>24 September 2015</span>
+                    </div>
+                    
+                </div>
+                
+               
+                
+                </div>
+            
+                
+                <div class="categories">
+                <span class="lastest-title">CATEGORIES</span>
+                
+                    <div class="categories-kind">
+                        <span>WEB DESIGN</span>
+                        <span>MOBILE APPS</span>
+                        <span>PRINT DESIGN</span>
+                        <span>RESPONSIVE</span>
+                    
+                    </div>
+                
+                </div>
+                
+                  <div class = "lastest-posts">
+                
+                <span class="lastest-title">RELATED POSTS</span>
+                
+                <div class ="sidebar-post">
+                    
+                    <img src="img/1.jpg">
+                    
+                    <div class="sidebar-post-info">
+                    <p class="sidebar-post-title">POST TITLE</p>
+                    <span>24 September 2015</span>
+                    </div>
+                    
+                </div>
+                
+                 
+                <div class ="sidebar-post">
+                    
+                    <img src="img/9.jpg">
+                    
+                    <div class="sidebar-post-info">
+                    <p class="sidebar-post-title">POST TITLE</p>
+                    <span>24 September 2015</span>
+                    </div>
+                    
+                </div>
+                
+                
+                 
+                <div class ="sidebar-post">
+                    
+                    <img src="img/2.jpg">
+                    
+                    <div class="sidebar-post-info">
+                    <p class="sidebar-post-title">POST TITLE</p>
+                    <span>24 September 2015</span>
+                    </div>
+                    
+                </div>
+                
+               
+                
+                </div>
+                
+                
+                  <div class="categories">
+                <span class="lastest-title">ARCHIVE</span>
+                
+                    <div class="categories-kind">
+                        <span>JUNE 2015</span>
+                        <span>JULY 2015</span>
+                        <span>AUGUST 2015</span>
+                        <span>SEPTEMBER 215</span>
+                    
+                    </div>
+                
+                </div>
+                
+            </div><!-- END OF SIDEBAR -->
+        
+            
+             </div>
+         <!-- END OF BLOG -->
+               
+        <div class = "top-btn" id ="topBtn" href="#" ><i class="fa fa-4x fa-angle-up"></i></div>
+        
+        <footer>
+        
+        <span>© 2016 Motive. Created by Lucid Themes.</span>
+        <div class = "social" > 
+            
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest"></i>
+            <i class="fab fa-dribbble"></i>
+            <i class="fab fa-behance"></i>
+            
+            </div>
+        </footer>
+                
+                
+        <script src="app.js"></script>
+         <script src="menu.js"></script>
+        
+    
+    </body>
+        
+    
+</html>

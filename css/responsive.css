@@ -1,0 +1,203 @@
+
+
+@media only screen and (min-width: 964px) {
+ 
+     .phone-nav{
+         display: none;
+     }
+   
+ }
+
+@media only screen and (max-width: 964px) {
+   .nav{
+       justify-content: space-between;
+       align-items: center;
+
+   }
+    .menu{
+        display: none;
+    }
+    .phone-nav{
+        margin-right: 15px;
+    }
+   .menu-phone{
+       display: flex;
+       z-index: 1000;
+   }
+}
+
+
+
+@media only screen and (max-width: 754px) {
+    
+    /* ----------HOME --------- */
+
+    .top-btn{
+      
+    }
+    .img-portfolio{
+        
+        column-count: 1;
+    }
+
+    .slideshow{
+        margin-bottom: 60px;
+    }
+    .btn{
+        font-size: 0.9em;
+        margin: 8px;
+    }
+    .btn-nav{
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .slide1,.slide2,.slide3{
+   
+         background-size:100% cover; 
+     }
+
+     .title-img1 {
+        letter-spacing: 3px;
+        text-align: center;
+         font-size: 1.8em;
+         color:black;
+        
+     }
+
+     .txtcont1{
+        
+         align-items: center;
+        top: 45%;
+        bottom: 50%;
+        transform: translate(6%,-50%);
+        width: 90%;
+    }
+
+    .txt-img1{
+        text-align: center;
+        white-space: pre-line;
+        
+        
+    }
+
+    .btn1{
+        height: 15px;
+    width: 120px;
+    font-size: 0.8em;
+    }
+    .dot{
+        width: 11px;
+    }
+    .active-dot{
+        height: 11px;
+        width: 11px;
+    }
+    
+    .overlay img{
+        margin: 10px 0 5px 0;
+    }
+    /* ----------PAGE NOT FOUND --------- */
+    
+   .about-title{
+        font-size: 1.8em;
+        letter-spacing: 6px;
+    }
+    .about-img{
+    height: 40%;    
+    }
+    .about-img img{
+      
+    }
+    .page-404 span{
+        text-align: center;
+    }
+    
+     /* ----------STANDART PAGE--------- */
+    
+    .blog-page{
+        flex-direction: column;
+        padding: 0;
+    }
+    
+    .blog-posts{
+        width: 100%;
+    }
+    .sidebar {
+        width: 100%;
+        
+    }
+    .lastest-posts{
+        margin-top: 25px;
+        padding: 0px;
+    }
+    .categories{
+        margin-left: 0;
+    }
+
+         /* ----------ABOUT-------- */
+    
+    .about-slideshow{
+        height: auto;
+    }
+    
+    .about-info{
+        flex-direction: column;
+        padding: 0;
+    }
+    .customize{
+        width: 100%;
+    }
+    
+    .about-team{
+        width: 100%;
+    }
+    .persons{
+        flex-direction: column;
+    }
+    .person{
+        width: 95%;
+        
+    }
+    
+    .client{
+        width: 100%;
+    }
+    
+    .client-title{
+    font-size: 1.3em;    
+    }
+    
+    .a-dots{
+   position: relative;
+        top: auto;
+        bottom: 0;
+    right: 0;
+    left: 0;
+}
+    
+      /* ----------contact-------- */
+    
+    
+    textarea{
+        width: 100%;
+    }
+    
+    .contact-us{
+        flex-direction: column;
+        padding: 5px;
+        width: 95%;
+    }
+    .detail span{
+        font-size: 0.9em;
+    }
+    .name-email{
+        flex-direction: column;
+    }
+    .name-email input[type]{
+        width: 100%;
+    }
+    .contact-form{
+        width: 90%;
+        margin-left: 0;
+    }
+ }

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Advent+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Advent+Pro|Montserrat" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+    
+      <meta charset="UTF-8"> 
+    <title>Motive</title>
+    
+    </head>
+    
+    <link rel="stylesheet"  href="css/style.css">
+    <link rel="stylesheet"  href="css/menuPhone.css">
+    
+    <link rel="stylesheet"  href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <body>
+    <!-- NAVBAR -->
+    <div class="nav">
+        <a href="" class="logo">MOTIVE</a>
+        <div class="menu">  
+        
+            <div class="dropdown">
+    <div class="dropbtn"><a href="home.html" class="a-menu">HOME</a></div>
+    <div class="dropdown-content">
+      <a href="#">SLIDESHOW</a>
+      <a href="#">BANNER IMAGE</a>
+    </div>
+  </div>
+                <div class="dropdown">
+    <div class="dropbtn"><a href="#" class="a-menu">PAGES</a></div>
+    <div class="dropdown-content">
+      <a href="404page.html">404 PAGE</a>
+      <a href="standard-page.html">STANDART PAGE</a>
+    </div>
+  </div>
+            <a href="about.html" class="a-menu" >ABOUT</a>
+                     <div class="dropdown">
+    <div class="dropbtn"><a href="blog.html" class="a-menu">BLOG</a></div>
+    <div class="dropdown-content">
+      <a href="#">RIGHT SIDEBAR</a>
+      <a href="#">NO SIDEBAR</a>
+        <a href="#">GRID LAYOUT</a>
+        <a href="#">SINGLE BLOG</a>
+    </div>
+  </div>
+     <div class="dropdown">
+    <div class="dropbtn"><a href="portfolio.html" class="a-menu">PORTFOLIO</a></div>
+    <div class="dropdown-content">
+      <a href="#">ORIGINAL</a>
+        <a href="#">WIDE LAYOUT</a>
+        <a href="#">SINGLE PORTFOLIO</a>
+    </div>
+  </div>
+            <a href="contact.html" class="a-menu" >CONTACT</a>
+        </div>
+        <div class="phone-nav" onclick="openNav()">&#9776;</div> 
+        </div>
+        
+
+<!-- .........PHONE MENU................. -->
+    
+    
+    <div class="side-bar" id="sideBar">
+        
+    <i class="far fa-times-circle close" onclick="closeNav()"></i>
+    
+        <div class="drop-down">
+        <div class="menu-item drop-btn" id="drop-btn">
+            <a href="home.html" >Home</a>
+            <i class="fas fa-angle-down" ></i>
+            </div>
+            <div class="drop-menu"> 
+            <div class="drop-item"><a href="#">Slideshow</a></div>
+                <div class="drop-item"><a>Banner Image</a></div>
+            
+            </div><!--dropdown menu end-->
+        </div><!--dropdown end-->
+        
+        
+        
+         <div class="drop-down">
+        <div class="menu-item drop-btn" id="drop-btn">
+            <a>Pages</a>
+            <i class="fas fa-angle-down dropbtn"></i>
+             </div>
+            <div class="drop-menu"> 
+            <div class="drop-item"><a href="404page.html">404 Page</a></div>
+                <div class="drop-item"><a href="standard-page.html">Standart Page</a></div>
+            
+            </div><!--dropdown menu end-->
+        </div><!--dropdown end-->
+        
+         <div class="menu-item" ><a href="about.html">About</a></div>
+        
+        
+         <div class="drop-down">
+        <div class="menu-item drop-btn" id="drop-btn">
+            <a href="blog.html">Blog</a>
+             <i class="fas fa-angle-down dropbtn"></i>
+            </div>
+            <div class="drop-menu"> 
+            <div class="drop-item"><a>Right Sidebar</a></div>
+                <div class="drop-item"><a>No Sidebar</a></div>
+                <div class="drop-item"><a>Grid Layout</a></div>
+                    <div class="drop-item"><a>Single Blog</a></div>
+            
+            </div><!--dropdown menu end-->
+        </div><!--dropdown end-->
+        
+        
+          <div class="drop-down">
+        <div class="menu-item drop-btn" id="drop-btn">
+            <a href="portfolio.html">Portfolio</a>
+              <i class="fas fa-angle-down dropbtn"></i>
+              </div>
+            <div class="drop-menu"> 
+            <div class="drop-item"><a>Original</a></div>
+                <div class="drop-item"><a>Wide Layout</a></div>
+                <div class="drop-item"><a>Single Portfolio</a></div>
+                    
+            
+            </div><!--dropdown menu end-->
+        </div><!--dropdown end-->
+        
+        
+        <div class="menu-item" ><a a href="contact.html">Contact</a></div>
+       
+    
+    
+    </div>
+    
+        <!-- END OF NAVBAR -->
+        
+        <!-- SLIDESHOW -->
+        <div class="slideshow">
+           <div class ="allSlides" id ="slider">
+               
+             <div  class ="imgSlides slide slide1">
+               
+                <div class = "txtcont1">
+                    <p class="title-img1">WELCOME TO MOTIVE</p>
+                    <p class="txt-img1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque nibh enim, quis euismod enim lacinia nec.
+                  </p>
+                    
+                    <div class="btn1">LEARN MORE</div>
+                     </div>
+                
+                 
+            </div>
+            
+               <div  class ="imgSlides slide slide2">
+               
+                <div class = "txtcont1 txtcont2">
+                    <p class="title-img1">CREATIVE WORK</p>
+                    <p class="txt-img1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque nibh enim, quis euismod enim lacinia nec.
+                  </p>
+                    
+                    <div class="btn1">VIEW WORK</div>
+                     </div>
+                
+                 
+            </div>
+               
+               <div  class ="imgSlides slide slide3">
+               
+                <div class = "txtcont1 ">
+                    <p class="title-img1">WE LOVE TO CHAT</p>
+                    <p class="txt-img1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque nibh enim, quis euismod enim lacinia nec.
+                  </p>
+                    
+                    <div class="btn1 btn2">CONTACT US</div>
+                     </div>
+                
+                 
+            </div>
+     
+            
+            </div>
+            
+            <a class="prev" id="prev"  onclick="">&#10145;</a>
+            <a class="next" id="next" onclick="">&#10145;</a>
+     
+    <div style="text-align:center" class ="dots">
+  <span class="dot active-dot" onclick=""></span> 
+  <span class="dot" onclick=""></span> 
+  <span class="dot" onclick=""></span> 
+</div>
+       
+        </div>
+      
+        <!-- END OF SLIDESHOW -->
+        
+          <!-- PORTFOLIO -->
+            <div class = "portfolio">
+                
+                <div class="btn-nav" id="btn-nav">
+                    <div class="btn active" data-filter ="all">All</div>
+                    <div class="btn" data-filter ="design"> Design</div>
+                    <div class="btn" data-filter ="photography"> Photography</div>
+                    <div class="btn" data-filter ="print-design"> Print Design</div>
+ 
+                    </div>
+              
+                  <div class = "img-portfolio">
+        
+      
+                    <div class="overlay">
+                         <img src ="img/9.jpg"  class = "filter print-design ">
+                         <div class="text-image">
+                             <span class="txt-title">LOREM IPSUM</span>
+                         <span class="txt-category">Print-Design</span>
+                             <span class="line"></span>
+                         </div>
+                         
+                     </div>
+           
+                    <div class="overlay">     
+                    <img src ="img/5.jpg" class = "filter design print-design">
+                    <div class="text-image">
+                             <span class="txt-title">LOREM IPSUM</span>
+                         <span class="txt-category">Design</span>
+                             <span class="line"></span>
+                         </div>
+                        </div>
+                    <div class="overlay">     
+                    <img src ="img/7.jpg" class = "filter photography print-design ">
+                    <div class="text-image">
+                             <span class="txt-title">LOREM IPSUM</span>
+                         <span class="txt-category">Photography</span>
+                             <span class="line"></span>
+                         </div>
+                        </div>
+        
+                    <div class="overlay ">   
+                    <img src ="img/2.jpg" class = "filter design photography">
+                        <div class="text-image">
+                             <span class="txt-title">LOREM IPSUM</span>
+                         <span class="txt-category">Photography</span>
+                             <span class="line"></span>
+                         </div>
+                        </div>
+            
+        
+                    <div class="overlay">     
+                    <img src ="img/4.jpg" class = "filter design ">
+                    <div class="text-image">
+                             <span class="txt-title">LOREM IPSUM</span>
+                         <span class="txt-category">Design</span>
+                             <span class="line"></span>
+                         </div>
+                       </div>
+        
+                 <div class="overlay">     
+                    <img src ="img/8.jpg" class = "filter design ">
+                    <div class="text-image">
+                             <span class="txt-title">LOREM IPSUM</span>
+                         <span class="txt-category">Design</span>
+                             <span class="line"></span>
+                         </div>
+                  
+                    </div>
+        
+  
+            <div class="overlay">     
+                    <img src ="img/3.jpg" class = "filter photography ">
+                    <div class="text-image">
+                             <span class="txt-title">LOREM IPSUM</span>
+                         <span class="txt-category">Photography</span>
+                             <span class="line"></span>
+                         </div>
+                         </div>
+
+
+            <div class="overlay">     
+                    <img src ="img/6.jpg" class = "filter design ">
+                    <div class="text-image">
+                             <span class="txt-title">LOREM IPSUM</span>
+                         <span class="txt-category">Design</span>
+                             <span class="line"></span>
+                         </div>
+                        </div>
+  
+ 
+        
+        </div> 
+                </div>   
+        
+         <!-- END OF PORTFOLIO -->
+        
+        <div class = "top-btn" id ="topBtn" href="#" ><i class="fa fa-4x fa-angle-up"></i></div>
+        
+        
+        <footer>
+        
+        <span>© 2016 Motive. Created by Lucid Themes.</span>
+        <div class = "social" > 
+            
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest"></i>
+            <i class="fab fa-dribbble"></i>
+            <i class="fab fa-behance"></i>
+            
+            </div>
+        </footer>
+                
+                
+        <script src="app.js"></script>
+            <script src="home-slideshow.js"></script>
+        <script src="portfolio.js"></script>
+        <script src="menu.js"></script>
+
+
+        
+    
+    </body>
+        
+    
+</html>

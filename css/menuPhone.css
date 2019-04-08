@@ -1,0 +1,68 @@
+html,body{
+    margin: 0;
+    height: 100%;
+}
+
+.close{
+    padding: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.side-bar{
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    width: 0;
+    background-color: white;
+    transition: all .3s linear;
+    height: 100%;
+    min-height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
+
+.side-bar a{
+    text-decoration: none;
+    color: gray;
+}
+
+.side-bar a:hover{
+    color:lightgray;
+}
+.menu-item{
+    border-bottom: 1px solid #efefef;
+}
+.menu-item,.drop-item{
+    width: 100%;
+    font-size: 0.85em;
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 3px;
+    color: gray;
+    padding: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.drop-menu{
+    width: 100%;
+    display: none;
+}
+.drop-btn i{
+    position: absolute;
+    width: 20px;
+    right: 8px;
+    font-size: 1.1em;
+   
+}
+.drop-menu:last-child{
+    border-bottom: 2.5px solid lightgray;
+}
+.menu-item:hover .drop-menu{
+    display: block;
+}
+
+#shigjeta{
+    transition: all .2s ;
+}
